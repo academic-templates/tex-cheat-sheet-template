@@ -1,0 +1,54 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/cheatsheet}[2022/12/17 Miscellaneous package]
+% custom packages
+\RequirePackage{styles/customcolors}
+% standard packages
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{graphicx}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{caption}
+\RequirePackage{multicol}
+\RequirePackage{tikz}
+\RequirePackage{tabu}
+%fonts
+\RequirePackage{courier}
+\RequirePackage{palatino}
+% tikz settings
+\usetikzlibrary{shapes,arrows}
+% image settings
+\graphicspath{{figures/}}
+\DeclareGraphicsExtensions{.jpg,.jpeg,.gif,.png,.pdf}
+% figure caption and source setup
+\newcommand{\figuresource}[1]{%
+  \par\vspace*{-\abovecaptionskip}
+  \caption*{\footnotesize\itshape #1}}
+\captionsetup{textfont=small,justification=centering,labelfont=bf}
+% other settings
+\setlength{\columnsep}{1.5em}
+\setlength{\columnseprule}{0mm}
+\def\title#1{\gdef\@title{#1}\gdef\thetitle{#1}}
+% reduce spacing within itemize/enumerate environments (to be used after \begin{...})
+\newcommand{\compresslist}{
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+% define some mini-pictures
+\newcommand{\linux}[0]{\includegraphics[height=10pt,natwidth=178,natheight=197]{linux}}
+\newcommand{\mac}[0]{\includegraphics[height=10pt,natwidth=19,natheight=20]{mac}}
+\newcommand{\win}[0]{\includegraphics[height=10pt,natwidth=21,natheight=20]{windows}}
+\newcommand{\all}[0]{\includegraphics[height=10pt,natwidth=23,natheight=20]{cross-platform}}
+\newcommand{\solar}[0]{\includegraphics[height=10pt,natwidth=20,natheight=20]{solaris}}
+\newcommand{\script}[0]{\includegraphics[height=10pt,natwidth=20,natheight=20]{script}}
+\newcommand{\ukey}[0]{\includegraphics[height=10pt,natwidth=20,natheight=20]{portable}}
+\newcommand{\coin}[0]{\includegraphics[height=8pt,natwidth=20,natheight=20]{dollar}}
+% references box
+\RequirePackage[backend=bibtex,style=numeric]{biblatex}
+\addbibresource{parts/bibliography.bib}
+\newcommand{\printreferences}{
+  \renewcommand{\section}[2]{\vskip 0.05em} % get rid of the default "References" section title
+  \nocite{*}
+  \small{\printbibliography}}

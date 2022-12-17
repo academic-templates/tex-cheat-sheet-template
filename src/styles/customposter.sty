@@ -1,0 +1,29 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/customposter}[2022/12/17 Custom poster elements package]
+% define custom environment for the cheat sheet
+\newenvironment{cheatsheet}{
+  \begin{poster}{
+    headerborder=closed,          % border around the header of content boxes
+    colspacing=1em,               % column spacing
+    bgColorOne=\bgcolorA,         % background color for the gradient on the left side of the poster
+    bgColorTwo=\bgcolorB,         % background color for the gradient on the right side of the poster
+    borderColor=\bdcolor,         % border color
+    headerColorOne=\hdcolorA,     % background color for the header in the content boxes (left side)
+    headerColorTwo=\hdcolorB,     % background color for the header in the content boxes (right side)
+    headerFontColor=\hdfontcolor, % text color for the header text in the content boxes
+    boxColorOne=\boxbgcolor,      % background color of the content boxes
+    %% values: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
+    textborder=roundedleft,       % format of the border around content boxes
+    eyecatcher=true,              % set to false for ignoring the left logo in the title and move the title left
+    headerheight=0.1\textheight,  % height of the header
+    %% values: rectangle, small-rounded, roundedright, roundedleft or rounded
+    headershape=roundedright,     % specify the rounded corner in the content box headers
+    headerfont=\Large\bf\textsc,  % large, bold and sans serif font in the headers of content boxes
+    linewidth=2pt                 % width of the border lines around content boxes
+  }{\includegraphics[height=4em]{\logoA}}
+   {\bf\textsc{\thetitle}\vspace{0.5em}}
+   {\textsc{\{ \author \} \hspace{12pt} \institute}}
+   {\includegraphics[height=4em]{\logoB}}
+}{\end{poster}}
+% define a banner for use in the cotent boxes
+\newcommand{\paragraphbox}[1]{\colorbox{\parbgcolor}{\makebox[\textwidth-2\fboxsep][l]{\color{\partextcolor}\bf #1}} \linebreak}
