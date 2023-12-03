@@ -6,7 +6,8 @@ The goal of this template is to provide a nice-looking cheat sheet layout, easy 
 
 Here is an example preview:
 
-<p align="center"><img src="https://raw.githubusercontent.com/dhondta/tex-cheat-sheet-template/master/doc/preview.png" width="50%">
+<p align="center"><img src="https://raw.githubusercontent.com/academic-templates/tex-cheat-sheet-template/main/doc/preview.png" width="50%"><br>
+<sub><sup>Preview image generated with <a href="https://gist.github.com/dhondta/f57dfde304905644ca5c43e48c249125">this tool</a></sup></sub></p>
 
 
 ## :card_file_box: Structure
@@ -44,17 +45,18 @@ Parts that you should adapt:
 
 You may also like these:
 
-- [TeX Book Template](https://github.com/dhondta/tex-book-template): A template for writing a nice book with LaTeX.
-- [TeX Course Index Template](https://github.com/dhondta/tex-course-index-template): A template for writing a condensed course index leveraging LaTeX indexing.
-- [TeX Master Thesis Template](https://github.com/dhondta/tex-master-thesis-template): A template for writing a nice master thesis dissertation with LaTeX.
-- [TeX Poster Template](https://github.com/dhondta/tex-poster-template): A template for creating a nice scientific poster with LaTeX.
+- [TeX Book Template](https://github.com/academic-templates/tex-book-template): A template for writing a nice book with LaTeX.
+- [TeX Course Index Template](https://github.com/academic-templates/tex-course-index-template): A template for writing a condensed course index leveraging LaTeX indexing.
+- [TeX Master Thesis Template](https://github.com/academic-templates/tex-master-thesis-template): A template for writing a nice master thesis dissertation with LaTeX.
+- [TeX Poster Template](https://github.com/academic-templates/tex-poster-template): A template for creating a nice scientific poster with LaTeX.
+- [TeX Slideshow Template](https://github.com/academic-templates/tex-slideshow-template): A template for making a nice presentation with LaTeX.
 
 
 ## :clap: Supporters
 
-[![Stargazers repo roster for @dhondta/tex-cheat-sheet-template](https://reporoster.com/stars/dark/dhondta/tex-cheat-sheet-template)](https://github.com/dhondta/tex-cheat-sheet-template/stargazers)
+[![Stargazers repo roster for @academic-templates/tex-cheat-sheet-template](https://reporoster.com/stars/dark/academic-templates/tex-cheat-sheet-template)](https://github.com/academic-templates/tex-cheat-sheet-template/stargazers)
 
-[![Forkers repo roster for @dhondta/tex-cheat-sheet-template](https://reporoster.com/forks/dark/dhondta/tex-cheat-sheet-template)](https://github.com/dhondta/tex-cheat-sheet-template/network/members)
+[![Forkers repo roster for @academic-templates/tex-cheat-sheet-template](https://reporoster.com/forks/dark/academic-templates/tex-cheat-sheet-template)](https://github.com/academic-templates/tex-cheat-sheet-template/network/members)
 
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
