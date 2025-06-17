@@ -1,4 +1,4 @@
-<h1 align="center">LaTeX Cheat Sheet Template <a href="https://twitter.com/intent/tweet?text=LaTeX%20Cheat%20Sheet%20Template.%0D%0ALaTeX%20template%20for%20creating%20your%20attractive%20cheat%20sheet%2e%0D%0A&hashtags=TeXLaTeX"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
+<h1 align="center" id="top">LaTeX Cheat Sheet Template <a href="https://twitter.com/intent/tweet?text=LaTeX%20Cheat%20Sheet%20Template.%0D%0ALaTeX%20template%20for%20creating%20your%20attractive%20cheat%20sheet%2e%0D%0A&hashtags=TeXLaTeX"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
 
 ## :information_source: Introduction
 
@@ -60,5 +60,5 @@ You may also like these:
 
 [![Forkers repo roster for @academic-templates/tex-cheat-sheet-template](https://reporoster.com/forks/dark/academic-templates/tex-cheat-sheet-template)](https://github.com/academic-templates/tex-cheat-sheet-template/network/members)
 
-<p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
+<p align="center"><a href="#top"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
